@@ -1,0 +1,38 @@
+.expertise {
+  padding: 4rem 2rem;
+}
+
+.expertise h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.expertise-card {
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.expertise-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.expertise-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,41 @@
+.clients-marquee {
+  width: 100%;
+  overflow: hidden;
+  background-color: #1C2526;
+  padding: 2rem 0;
+}
+
+.marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+  }
+}

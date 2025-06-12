@@ -1,0 +1,102 @@
+.testimonials {
+  padding: 4rem 2rem;
+  background-color: #000000;
+}
+
+.testimonials-header {
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.testimonials-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.user-name {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #FF5733;
+}
+
+.user-profession {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.review-section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-section p {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.arrows {
+  display: flex;
+  gap: 1rem;
+  align-self: flex-end;
+}
+
+.arrows button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.arrows button:hover {
+  color: #FF5733;
+}
+
+@media (max-width: 768px) {
+  .testimonials-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-info {
+    width: 100%;
+  }
+
+  .review-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .arrows {
+    align-self: center;
+  }
+}

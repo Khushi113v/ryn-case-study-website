@@ -1,0 +1,32 @@
+.blog {
+  padding: 4rem 2rem;
+  background-color: #000000;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+
+.blog h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.view-all {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.view-all:hover {
+  color: #FF5733;
+}
+
+.blog-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
